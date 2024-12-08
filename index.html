@@ -1,9 +1,9 @@
 <!-- Unit 5 Project
 Requirements
-[  ] <div> and <span>
-[  ] height: and width:
-[  ] margin: and padding: 
-[  ] Three Images
+[ yes ] <div> and <span>
+[ yes ] height: and width:
+[ yes ] margin: and padding: 
+[ yes ] Three Images
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Flexbox
@@ -11,22 +11,75 @@ Select ONE Additional Feature to Add
 [ no ] Feature 3 - Navbar
 [ no ] Feature 4 - Shaking Animation
 [ no ] Feature 5 - Gradient Background
-[ no ] Feature 6 - Spotify Playlist
+[ yes ] Feature 6 - Spotify Playlist
 -->
 
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Unit 5 Project</title>
+    <meta charset="utf-8" />
+    <style>
+      ul
+            {list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(153, 0, 230);
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;}
+            li {display: inline;}
+            li a {text-decoration: none;
+            padding: 10px;
+            background-color: orange;
+            color: white;}
+            body
 
-<head>
-  <title>Unit 5 Project</title>
-  <meta charset="utf-8">
-  <style>
+            {
+                    background-color: rgb(255, 204, 0);
+                  .first-sentence {
+                    color: rgb(153, 0, 230);
+                    font-style: italic;
+                    text-decoration: underline;
+                  }
+                   h1 {
+                    color: rgb(153, 0, 230)
+                  }
+                div {
+              height: 100px;
+              width: 500px;
+              background-color: yellow;
+            }
 
-  </style>
-</head>
-<body>
+                img {
+                    border: 5px solid #FFF9BF;
+                    border-radius: 25% 10%;
+                  }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">NBA</a></li>
+      <li><a href="index.html">Players</a></li>
+    </ul>
 
- 
-
-</body>
+    <div id="info">
+      <h1>Basket ball</h1>
+      <p>
+        <span class="first-sentence"> lebron james </span>
+      </p>
+      <img
+        src="https://vsin.com/wp-content/uploads/2024/02/USATSI_22611552_168384654_lowres.jpg?w=1068&h=0&crop=1"
+        width="500"
+      />
+      <img
+        src="https://cdn.vox-cdn.com/thumbor/PS4JtUB0zLf-pIUZzmNeDmKYTKQ=/0x0:1200x800/1200x800/filters:focal(265x59:457x251)/cdn.vox-cdn.com/uploads/chorus_image/image/65439754/anthony_davis_tjarks_AP_Ringer.0.jpg"
+        width="400"
+      />
+      <img src="https://i.ytimg.com/vi/hECYKBcjyug/maxresdefault.jpg" width=500"
+      />
+    </div>
+  </body>
 </html>
